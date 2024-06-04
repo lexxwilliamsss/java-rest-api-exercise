@@ -15,7 +15,7 @@ public class IOUService {
     final List<IOU>ious = new ArrayList<>();
     
 
-    public void ListIOUService(IOURepository iouRepository){
+    public IOUService(IOURepository iouRepository){
         this.iourepository = iouRepository;
     }
 
